@@ -1,4 +1,6 @@
-package problems.tree;
+package problems.tree.easy;
+
+import problems.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +31,6 @@ public class Solution_94_Binary_Tree_Inorder_Traversal {
             result.add(root.val);
         }
         return result;
-
     }
 
     public static void main(String[] args) {
